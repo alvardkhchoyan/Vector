@@ -92,8 +92,7 @@ void Vector::erase(int index) {
 }
 
 void Vector::shrink_to_fit() {
-    if (m_size == m_cap)
-    {
+    if (m_size == m_cap) {
         return;
     }
     int* tmp = new int[m_size];
