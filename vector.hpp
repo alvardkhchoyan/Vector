@@ -1,4 +1,5 @@
 #include <iostream>
+
 #ifndef vector
 #define vector
 
@@ -12,7 +13,6 @@ public:
     void clear();
     void shrink_to_fit();
     int* data();
-//    void resize(int,int);
     int capacity();
     void erase(int);
     int size() const;
